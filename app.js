@@ -7,8 +7,7 @@ const path = require("path");
 const { Server } = require("socket.io");
 const io = new Server(server);
 
-const PORT = process.env.PORT || 3000
-const SERVER_URI = process.env.SERVER_URI || "http://localhost:3000"
+
 
 app.use(express.static("client"));
 
